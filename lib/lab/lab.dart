@@ -18,6 +18,43 @@ class _labState extends State<lab> {
         appBar: AppBar(
           title: Text("Labratory"),
         ),
+        drawer: Drawer(
+          child: ListView(
+            children: [
+              Divider(),
+              ListTile(
+                leading: Icon(Icons.school),
+                title: Text("Barguna Polytechnic Institute"),
+                onTap: (){},
+              ),
+              Divider(),
+              ListTile(
+                leading: Icon(Icons.people),
+                title: Text("Teachers"),
+                onTap: (){},
+              ),
+              Divider(),
+              ListTile(
+                leading: Icon(Icons.notifications),
+                title: Text("Notice"),
+                onTap: (){},
+              ),
+              Divider(),
+              ListTile(
+                leading: Icon(Icons.book_outlined),
+                title: Text("Library"),
+                onTap: (){},
+              ),
+              Divider(),
+              ListTile(
+                leading: Icon(Icons.info),
+                title: Text("About"),
+                onTap: (){},
+              ),
+              Divider(),
+            ],
+          ),
+        ),
         body: Padding(
           padding: EdgeInsets.all(4.0),
           child: ListView(

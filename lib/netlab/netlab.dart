@@ -17,7 +17,8 @@ class _netlabState extends State<netlab> {
         actions: [
           IconButton.outlined(onPressed: () {}, icon: Icon(Icons.search))
         ],
-        title: Text("Software Lab-1"),
+        title: Text("Network lab"),
+        centerTitle: true,
       ),
       body: Padding(
         padding: EdgeInsets.all(8),
