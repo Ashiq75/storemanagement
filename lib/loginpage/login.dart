@@ -16,7 +16,7 @@ class _LoginPageState extends State<LoginPage> {
     // For simplicity, checking if both fields are non-empty
     if (username.isNotEmpty && password.isNotEmpty) {
       // In a real application, you would perform authentication logic here
-      Navigator.pushNamed(context, '/home');
+      Navigator.pushNamed(context, '/lab');
     } else {
       showDialog(
         context: context,
@@ -73,7 +73,7 @@ class _LoginPageState extends State<LoginPage> {
             SizedBox(height: 16.0),
             ElevatedButton(
               onPressed: (){
-                Navigator.pushNamed(context, '/lab');
+                validateLogin();
               },
               child: Text('Login'),
             ),
