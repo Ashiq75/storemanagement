@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Store Management',
       debugShowCheckedModeBanner: false,
       initialRoute: '/login',
       routes: {

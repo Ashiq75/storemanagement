@@ -17,7 +17,8 @@ class _EleclabState extends State<Eleclab> {
         actions: [
           IconButton.outlined(onPressed: () {}, icon: const Icon(Icons.search))
         ],
-        title: const Text("Software Lab-1"),
+        title: const Text("Electronic lab"),
+        centerTitle: true,
       ),
       body: Padding(
         padding: const EdgeInsets.all(8),

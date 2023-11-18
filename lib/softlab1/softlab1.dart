@@ -18,6 +18,7 @@ class _Softlab1State extends State<Softlab1> {
           IconButton.outlined(onPressed: () {}, icon: const Icon(Icons.search))
         ],
         title: const Text("Software Lab-1"),
+        centerTitle: true,
       ),
       body: Padding(
         padding: const EdgeInsets.all(8),
